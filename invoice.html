@@ -14,10 +14,13 @@
 </head>
 
 <body>
-       <div class="container border border-1 border-dark p-2 pt-5">
+    
+       <div class="container pt-5">
+
+        <!--Header Area-->
            <div class="row">
                <div class="col col-10">
-                   <img src="/img/IdeaFoundryLogo.png" alt="">
+                   <img src="/img/NickellMedia-sm.png" alt="">
                </div>
                <div class="col">
                 <div class="row pe-2">
@@ -29,32 +32,77 @@
                 </div>
                </div>
            </div>
-           <div class="row pt-5">
-            <hr style="height: 2px; color:black"> 
-               <div class="col-1">
-                <h5>Date:</h5>        
-                </div>                
-               <div class="col-1 pb-2 align-items-left">
-                <p>05/12/2019</p>                
-                </div>
-                <div class="col-1">
-                    <P></P>
-            </div>
-                <div class="col-3">
-                    
-                </div>
-                <div class="col-3">
-                    
-                </div>
-                <div class="col-2 pb-3">
-                    <h5>Invoice No:</h5>
-                </div>
-                <div class="col-1 pe-3">
-                    19005
-                </div>
+
+           <!--Table Begins-->
+           <table class="table border-top border-1 border-dark">
+            
+            <thead>
+                <tr>
+                   <th scope="col">Date:</th><td>05/12/2019</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                   <th scope="col">Invoice No:</th><td>19005</td>
+                </tr>
                
-               <hr style="height: 2px; color:black">
-           </div>
+               </thead>
+            <thead>
+                <tr>
+                   <th >Invoice To:</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+
+                   <th scope="col pt-2">Pay To:</th><td></td>
+                </tr>               
+               </thead>
+               <tbody>
+                <tr>
+                  <td scope="col col-2">Mark Davis <br>
+                    1234 Meadows Way,<br> Houston, Tx. 77092</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>Nickell Media <br>1455 Dacoma Ave. <br>Houston, TX. 77092</td><td></td>
+                  
+                </tr>
+                </tbody>
+           </table>
+           <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Service</th>
+                <th scope="col">Description</th>
+                <th scope="col">Rate</th>
+                <th scope="col">QTY</th>
+                <th scope="col">Amount</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Design</th>
+                <td>Website Design</td>
+                <td>$60.00</td>
+                <td>10</td>
+                <td>$600</td>
+              </tr>
+              <tr>
+                <th scope="row">Development</th>
+                <td>Website Development</td>
+                <td>Thornton</td>
+                <td>$150.00</td>
+                <td>$1,500.00</td>
+              </tr>
+              <tr>
+                <th scope="row">Deployment</th>
+                <td>Deploy Website</td>
+                <td>$450.00</td>
+                <td>1</td>
+                <td>$450.00</td>
+              </tr>
+              <tr scope="row"></tr>
+              <td colspan="4">Sub Total:</td>
+              <td>$2,550.00</td>
+              <tr scope="row"></tr>
+              <td colspan="4">Tax:</td>
+              <td>$0.00</td>
+              <tr scope="row"></tr>
+              <td colspan="4">Total:</td>
+              <td>$2,550.00</td>
+            </tbody>
+            <caption>Note: This is a computer generated receipt and soes not require a signature.</caption>
+          </table>
        </div>
 
     <!-- Bootstrap JS -->
