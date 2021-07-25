@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Invoice</title>
+    <title>Invoice From Nickell Media</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,95 +15,110 @@
 
 <body>
     
-       <div class="container pt-5">
+       <div class="container rounded p-2 border border-1 ">
 
         <!--Header Area-->
-           <div class="row">
-               <div class="col col-10">
-                   <img src="/img/NickellMedia-sm.png" alt="">
+        <div class="d-flex justify-content-end mt-3 d-print-none">
+          <button type="button" class="btn btn-md btn-dark" onclick="window.print()">Print this page</button>
+        </div>
+           <div class="row align-items-center">
+               <div class="col-sm-7 d-flex align-content-start">
+                   <img src="/img/NickellMedia.svg" title="Nickell Media Logo" alt="Nickell Media Logo">
                </div>
-               <div class="col">
-                <div class="row pe-2">
-                    <button type="button" class="btn btn-lg btn-dark align-right">Print this page</button>
-                    <div class="row pt-5">
-                        <h4>Client No: 4908</h4>                        
-                    </div>                  
-                   
+               <div class="col-sm-5 d-flex justify-content-sm-end justify-content-start">      
+                   <strong>Client No:</strong> &nbsp;4908                       
                 </div>
-               </div>
-           </div>
-                <br>
-           <!--Table Begins-->
-           <table class="table border-top border-1 border-dark">
-            
-            <thead>
-                <tr>
-                   <th scope="col">Date:</th><td>05/12/2019</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                   <th scope="col">Invoice No:</th><td>19005</td>
-                </tr>
-               
-               </thead>
-            <thead>
-                <tr>
-                   <th >Invoice To:</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-
-                   <th scope="col pt-2">Pay To:</th><td></td>
-                </tr>               
-               </thead>
-               <tbody>
-                <tr>
-                  <td scope="col col-2">Mark Davis <br>
-                    1234 Meadows Way,<br> Houston, Tx. 77092</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>Nickell Media <br>1455 Dacoma Ave. <br>Houston, TX. 77092</td><td></td>
-                  
-                </tr>
-                </tbody>
-           </table>
-           <table class="table">
-            <thead>
-              <tr>
-                <th scope="col">Service</th>
-                <th scope="col">Description</th>
-                <th scope="col">Rate</th>
-                <th scope="col">QTY</th>
-                <th scope="col">Amount</th>
-                <th></th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">Design</th>
-                <td>Website Design</td>
-                <td>$60.00</td>
-                <td>10</td>
-                <td>$600</td>
-              </tr>
-              <tr>
-                <th scope="row">Development</th>
-                <td>Website Development</td>
-                <td>Thornton</td>
-                <td>$150.00</td>
-                <td>$1,500.00</td>
-              </tr>
-              <tr>
-                <th scope="row">Deployment</th>
-                <td>Deploy Website</td>
-                <td>$450.00</td>
-                <td>1</td>
-                <td>$450.00</td>
-              </tr>
-              <tr scope="row"></tr>
-              <td colspan="4">Sub Total:</td>
-              <td>$2,550.00</td>
-              <tr scope="row"></tr>
-              <td colspan="4">Tax:</td>
-              <td>$0.00</td>
-              <tr scope="row"></tr>
-              <td colspan="4">Total:</td>
-              <td>$2,550.00</td>
-            </tbody>
-            <caption>Note: This is a computer generated receipt and soes not require a signature.</caption>
-          </table>
-       </div>
+              </div>
+              <hr>
+              <div class="row row-cols-1 row-cols-sm-2">
+                <div class="col-sm-6 d-flex justify-content-start">
+                  <strong>Date:</strong>&nbsp;05/12/21
+                </div>
+                <div class="col-sm-6 d-flex justify-content-sm-end justify-content-start">
+                  <strong>Invoice No:</strong>&nbsp;19005
+                </div>
+              </div>
+                <hr>
+                <div class="row row-cols-md-2">
+                  <div class="col-6 d-flex justify-content-start">
+                    <div>
+                      <strong>Invoice To:</strong><br>
+                      <address class="address">
+                        Mark Davis <br>
+                        1541 Blue Haven Cir. <br>
+                        Houston, TX. 77073
+                      </address>
+                    </div>
+                  </div>
+                  <div class="col-6 d-flex justify-content-end">
+                    <div >
+                      <strong>Pay To:</strong>
+                      <address class="address">
+                       Nickell Media <br>
+                       15814 Champion Forest Dr. <br>
+                       Spring, TX. 77379 
+                      </address>
+                    </div>
+                  </div>
+                </div>
+                  <div class="row table-responsive">
+                    <table class="table table-striped tabled-bordered">
+                      <thead class="thead-dark">
+                        <tr>
+                          <th>Service</th>
+                          <th>Description</th>
+                          <th>Rate</th>
+                          <th>Qty</th>
+                          <th class="text-end">Amount</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Design</td>
+                          <td>Website Design</td>
+                          <td>$60.00</td>
+                          <td>10</td>
+                          <td class="text-end">$600.00</td>
+                        </tr>
+                        <tr>
+                          <td>Development</td>
+                          <td>Website Development</td>
+                          <td>$150.00</td>
+                          <td>10</td>
+                          <td class="text-end">$1,500.00</td>
+                        </tr>
+                        <tr>
+                          <td>Deployment</td>
+                          <td>Website Deployment and Hosting</td>
+                          <td>$60.00</td>
+                          <td>1</td>
+                          <td class="text-end">$450.00</td>
+                        </tr>
+                      </tbody>
+                      <tfoot>
+                        <tr>
+                          <td colspan="4">Sub Total</td>
+                          <td class="text-end">$2,550.00</td>
+                        </tr>
+                        <tr>
+                          <td colspan="4">Tax</td>
+                          <td class="text-end">$0.00</td>
+                        </tr>
+                        <tr>
+                          <td colspan="4">Total</td>
+                          <td class="text-end">$2,550.00</td>
+                        </tr>
+                      </tfoot>
+                    </table>
+                  </div>
+                 <footer>
+                   <div class="row">
+                     <div class="col-12">
+                       <p>
+                       <strong>Note:</strong>&nbsp; This is a computer generated receipt and does not require a sugnature.</p>
+                     </div>
+                   </div>
+                 </footer> 
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
